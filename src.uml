@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/Lab5/src</OriginalElement>
+  <nodes>
+    <node x="291.11799846663934" y="160.84024526152302">ConcreteAggregate</node>
+    <node x="291.11799846663934" y="20.34647851734465">Aggregate</node>
+    <node x="295.5104466555632" y="350.3340120057014">Main</node>
+    <node x="20.67160450448057" y="20.34647851734465">Iterator</node>
+    <node x="11.674558714229477" y="179.776007781495">ConcreteIterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ConcreteAggregate" target="Aggregate" relationship="REALIZATION">
+      <point x="122.5" y="-68.0" />
+      <point x="543.6179984666394" y="137.69011225871003" />
+      <point x="417.6481865961714" y="137.69011225871003" />
+      <point x="-3.469811870467936" y="43.5" />
+    </edge>
+    <edge source="Main" target="ConcreteAggregate" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="379.5104466555632" y="323.5871286336122" />
+      <point x="339.2268425196695" y="323.5871286336122" />
+      <point x="-81.89115594696983" y="68.0" />
+    </edge>
+    <edge source="ConcreteIterator" target="Iterator" relationship="REALIZATION">
+      <point x="100.0" y="-56.0" />
+      <point x="219.17455871422948" y="137.69011225871003" />
+      <point x="50.01701672508159" y="137.69011225871003" />
+      <point x="-53.15458777939898" y="43.5" />
+    </edge>
+    <edge source="ConcreteAggregate" target="ConcreteIterator" relationship="CREATE">
+      <point x="-130.0" y="-38.93810155327654" />
+      <point x="131.83407876550095" y="189.90214370824648" />
+      <point x="131.83407876550095" y="235.776007781495" />
+      <point x="107.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.3901437371663243" showDependencies="true" x="227.50000000000006" y="229.50000000000003" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
